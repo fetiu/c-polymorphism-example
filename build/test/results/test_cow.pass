@@ -1,0 +1,19 @@
+---
+:source:
+  :path: test
+  :file: test_cow.c
+:successes:
+- :test: test_cow_new
+  :line: 15
+  :message: ''
+  :unity_test_time: 0
+:failures: []
+:ignores: []
+:counts:
+  :total: 1
+  :passed: 1
+  :failed: 0
+  :ignored: 0
+:stdout:
+- cow, horn is 1
+:time: 0.027338999789208174
