@@ -3,10 +3,9 @@ version: 2.1
 jobs:
   test:
     docker:
-      - image: circleci/buildpack-deps:trusty
+      - image: ruby:latest
     steps:
       - checkout
-      - run: sudo apt-get install ruby-full
       - run: gem install ceedling
       - run: ceedling test:all
 
